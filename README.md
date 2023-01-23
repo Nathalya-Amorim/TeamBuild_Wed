@@ -5,6 +5,9 @@
 ## Languages / Tools 
 - Express
 - Socket 
+- HTML
+- Sass
+
 
 ## Collaborators
 - Laura Albarracin - Project Manager
