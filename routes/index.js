@@ -13,32 +13,32 @@ let team = {
   },
 
   nathalya: {
-    name: 'Nathalya',
-    pRole: 'Primary Role: Front End',
-    sRole: 'Secundary Role: Back-end Developer',
+    name: 'Nathalya Menezes',
+    pRole: 'Front - End Developer',
+    sRole: 'Back - End Developer',
     avatar: 'nathalya.jpg',
-    github: 'https://github.com/',
-    linkedin: 'www.linkedin.com',
-    description: ''
+    github: 'https://github.com/Nathalya-Amorim',
+    linkedin: 'https://www.linkedin.com/in/nathalya-menezes-0b1a37130/',
+    description: ' Description: I’m Nathalya Menezes, a Front-End Developer and Back-End at We All Hockey from Brazil but currently based in London; passionate about creating and discovering new things in 3D JavaScript, HTML and CSS.'
   },
 
   tallyta: {
     name: 'Tallyta',
-    pRole: 'Primary Role: Designer',
-    sRole: 'Secundary Role: Back-end Developer',
-    avatar: 'tallyta.jpg',
-    github: 'https://github.com/',
-    linkedin: 'www.linkedin.com',
-    description: ''
+    pRole: '#',
+    sRole: '#',
+    avatar: '#',
+    github: '#',
+    linkedin: '#',
+    description: '#'
   },
 
   maria: {
-    name: 'Maria',
-    pRole: 'Motion Designer',
+    name: 'Mariia',
+    pRole: '#',
     sRole: '',
-    avatar: 'maria2.jpg',
-    github: 'https://github.com/',
-    linkedin: 'www.linkedin.com',
+    avatar: '#',
+    github: '#',
+    linkedin: '#',
     description: ''
   },
 }
