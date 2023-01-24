@@ -1,8 +1,8 @@
 # Team Page Profile
 
-It is a simple Express-Generator project with team roles, descriptions and pictures.
-
 ## Description 
+
+It is a simple Express-Generator project with team roles, descriptions and pictures.
 
 ## Languages / Tools 
 - Express
