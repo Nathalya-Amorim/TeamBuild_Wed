@@ -4,8 +4,8 @@ var router = express.Router();
 let team = {
   laura: {
     name: 'Laura',
-    pRole: 'Primary Role: Project Manager',
-    sRole: 'Secundary Role: Back-end Developer',
+    pRole: ' Project Manager',
+    sRole: ' Back - End Developer',
     avatar: 'laura.jpg',
     github: 'https://github.com/lauralbarracin',
     linkedin: 'https://www.linkedin.com/in/lauraalbarracin/',
