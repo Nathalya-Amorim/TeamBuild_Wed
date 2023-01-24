@@ -1,30 +1,30 @@
 {{!-- Partials are always snippets of code that define a piece of "view" --}}
-{{!-- These are rendered via the route handler into layout.hbs into the {{{ body }}}  template --}}
-      <div class="team-block">
-                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul class="social-icons">
-                            <li><a href="www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="www.github.com"><i class="fa-brands fa-github"></i></a></li>
-                            <!--we need to connect this part with our social networks!-->
-                        </ul>
-                        <div class="image">
-                            <a class="pic" href="#"><img src="/images/{{person.avatar}}" alt="{{person.name}}'s avatar"></a>
-                        </div>
-                        <div class="lower-content">
-                            <h3><a href="#">{{ person.name}}</a></h3>
-                            <div class="designation">{{ person.pRole}}</div>
-                            <div class="designation">{{ person.sRole}}</div>
-                            <div class="designation">{{ person.description}}</div>
-                        </div>
-                    </div>
-                </div>
-
-
-
+{{!-- These are rendered via the route handler into layout.hbs into the {{{ body }}} template --}}
+<div class="team-block">
+    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+        <ul class="social-icons">
+            <li><a href="{{ person.linkedin }}"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="{{ person.github }}"><i class="fa-brands fa-github"></i></a></li>
+            <!--we need to connect this part with our social networks!-->
+        </ul>
+        <div class="image">
+            <img class="pic" src="/images/{{person.avatar}}" alt="{{person.name}}'s avatar"></>
+        </div>
+        <div class="lower-content">
+            <h3 class="nameColor">{{ person.name}}</a></h3>
+            <div class="designation">
+                <h2>Primary Role:</h2>{{ person.pRole }}
+            </div>
+            <div class="designation">
+                <h2>Secondary Role:</h2>{{ person.sRole }}
+            </div>
+            <div class="designation">
+                <h2>Description:</h2>{{ person.description }}
+            </div>
+        </div>
+    </div>
+</div>
 
 {{!-- maybe a bio image or something --}}
-
-
-<a href="/team">Back To All Members</a>
 </section>
 <script src="https://kit.fontawesome.com/4f6e35c80b.js" crossorigin="anonymous"></script>

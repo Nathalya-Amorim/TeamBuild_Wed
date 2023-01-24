@@ -17,19 +17,73 @@ img {
 }
 
 .pic {
-  width: 90px;
+  width: 140px;
   height: auto;
 }
 
 .team-page-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  padding-top: 70px;
+  padding-left: 140px;
 }
 
 .team-page-section .team-block {
   margin-bottom: 60px;
   width: 600px;
+  margin-left: 8em;
+}
+
+.sec-title {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 35px;
+}
+
+.sec-title .title {
+  position: relative;
+  font-size: 40px;
+  color: #9516b9;
+  font-weight: 900;
+  margin: 5px;
+  padding: 1.7em;
+  text-transform: capitalize;
+}
+
+.title {
+  background-color: greenyellow;
+}
+
+.sec-title h2 {
+  position: relative;
+  color: #7c07a6;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+  margin-top: 2px;
+}
+
+.sec-title .text {
+  position: relative;
+  font-size: 30px;
+  line-height: 0.9em;
+  color: #555555;
+}
+
+.sec-title.centered .separator {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.sec-title.centered {
+  text-align: center !important;
+}
+
+.sec-title.light .title {
+  color: #ffffff;
+}
+
+.sec-title.light h2 {
+  color: #ffffff;
 }
 
 .team-section {
@@ -79,7 +133,7 @@ img {
   content: "";
   right: 0px;
   top: 0px;
-  left: 63px;
+  left: 100px;
   bottom: 0px;
   border-radius: 10px;
   background-color: #f5f5f5;
@@ -94,7 +148,7 @@ img {
   position: absolute;
   content: "";
   top: 0px;
-  left: 65px;
+  left: 100px;
   bottom: 0px;
   width: 0%;
   border-radius: 10px;
@@ -129,7 +183,7 @@ img {
 
 .team-block .inner-box .social-icons li a {
   position: relative;
-  color: rgb(98, 190, 193);
+  color: rgb(225, 102, 59);
   font-size: 22px;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -139,8 +193,7 @@ img {
 
 .team-block .inner-box:hover .lower-content h3 a,
 .team-block .inner-box:hover .social-icons li a,
-.team-block .inner-box:hover .lower-content .designation,
-.team-block .inner-box:hover .lower-content h3 {
+.team-block .inner-box:hover .lower-content .designation {
   color: #ffffff;
 }
 
@@ -148,6 +201,8 @@ img {
   position: relative;
   z-index: 1;
   border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 35px rgba(0, 0, 0, 0.2);
 }
 
 .team-block .inner-box .image img {
@@ -165,61 +220,58 @@ img {
 
 .team-block .inner-box .lower-content h3 {
   position: relative;
-  color: rgb(98, 190, 193);
-  font-size: 30px;
+  color: #bd0000;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1em;
+  line-height: 1.3em;
+}
+
+.team-block .inner-box .lower-content h3 a {
+  position: relative;
+  font-size: 20px;
+  color: rgb(225, 102, 59);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .team-block .inner-box .lower-content .designation {
   position: relative;
   margin-top: 5px;
-  color: #666161;
+  color: #777777;
   font-size: 17px;
 }
 
-.footerPosition {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
+.team-block.style-two .inner-box .lower-content h3 a,
+.team-block.style-two .inner-box .social-icons li a {
+  color: #ff9600;
 }
 
-h4 {
-  color: rgb(91, 88, 88);
-  font-size: 14px;
+.team-block.style-two .inner-box:hover .lower-content h3 a,
+.team-block.style-two .inner-box:hover .social-icons li a {
+  color: #ffffff;
 }
 
-.two-items {
-  display: grid;
-  grid-column: 2/span 2;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: space-evenly;
-  row-gap: 2em;
-  column-gap: 2em;
-}
-
-.titleP {
-  margin-top: 60px;
-  font-size: 30px;
-  color: rgb(91, 88, 88);
+.team-block.style-two .inner-box::after {
+  background-image: -ms-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+  background-image: -moz-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+  background-image: -o-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFEB3C), color-stop(100, #ff9600));
+  background-image: -webkit-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+  background-image: linear-gradient(to bottom, #FFEB3C 0%, #ff9600 100%);
 }
 
 .nav {
+  background-color: #777777;
   display: inline;
 }
 
-header {
-  display: flex;
-  align-items: center;
-}
-
 body {
-  background-color: #F5E3E0;
-  display: grid;
-}
-
-.pic {
-  float: left;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(0 0)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='rotate(0 800 450)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(0 0)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(0 0)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='rotate(0 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='rotate(0 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 nav .nav {
@@ -241,8 +293,10 @@ nav a {
   /* makes target area bigger */
   color: #333;
   /* rgba backup */
+  color: rgba(22, 22, 22, 0.8);
   text-decoration: none;
   font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.75s ease-in-out;
   -moz-transition: all 0.75s ease-in-out;
   -o-transition: all 0.75s ease-in-out;
@@ -250,6 +304,8 @@ nav a {
 }
 nav a:hover,
 nav a:focus {
+  color: rgb(184, 181, 181);
+  background: rgb(91, 88, 88);
   /* rgba backup */
   background: rgba(104, 27, 191, 0.846);
   -webkit-border-radius: 4px;
@@ -259,4 +315,4 @@ nav a:focus {
   border-radius: 4px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
