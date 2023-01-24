@@ -1,0 +1,39 @@
+nav {
+    
+    .nav{
+        float: center; 
+    padding: 20px 0 0 0;
+    margin: 1em;
+    }
+  
+  li {
+    float: left; /* makes list horizontal */
+    list-style-type: none;
+    margin: 0 0 0 30px; /* separates 'buttons' */
+  }
+  
+  a {
+    font-size: 20px;
+    margin: 0.5em;
+    padding: 10px 15px; /* makes target area bigger */
+    color: #333; /* rgba backup */
+    color: rgba(22, 22, 22, 0.8);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+    transition: all 0.75s ease-in-out;
+  }
+  
+  a:hover, a:focus {
+    color: rgb(184, 181, 181);
+    background: rgb(91, 88, 88); /* rgba backup */
+    background: rgba(104, 27, 191, 0.846);
+    -webkit-border-radius: 4px; /* safari & chrome */
+    -moz-border-radius: 4px; /* firefox */
+    border-radius: 4px; 
+  }
+
+}
