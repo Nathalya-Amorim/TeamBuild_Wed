@@ -34,12 +34,12 @@ let team = {
 
   maria: {
     name: 'Mariia',
-    pRole: '#',
-    sRole: '',
-    avatar: '#',
-    github: '#',
-    linkedin: '#',
-    description: ''
+    pRole: 'Motion Graphics Specialist',
+    sRole: 'Graphic Designer',
+    avatar: 'manya_photo.jpg',
+    github: 'https://github.com/myselfmarish',
+    linkedin: 'https://www.linkedin.com/in/masha-shevchenko-94a98b230/',
+    description: 'A creative and customer-oriented designer with an eye for commercial fashion and detail in product styling. I used to be a content creator for russian hockey team. And currently working at We all Hockey to promote the awareness of bullying in hockey'
   },
 }
 
