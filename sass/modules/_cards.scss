@@ -11,7 +11,7 @@ ul {
 
 
 img {
-    width: 960px;
+    width: 533px;
 }
 
 .pic {
@@ -171,5 +171,48 @@ h4 {
 }
 
 .description {
+    color: #179cc8;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1024px;
+    gap: 20px;
+}
+
+.flex-box-text {
+    align-items: flex-start;
+    align-self: flex-start;
+
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.highlight {
+    color: #542a7d;
+    font-weight: bold;
+
+}
+
+.highlight-sentence {
+    color: #542a7d;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.orange {
+    color: #e1663b;
+}
+
+.red {
+    color: #db3a38;
+}
+
+.blue {
     color: #179cc8;
 }
