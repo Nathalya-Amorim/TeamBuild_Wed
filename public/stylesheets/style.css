@@ -159,7 +159,7 @@ h4 {
 }
 
 .description {
-  color: #179cc8;
+  color: #61c8ea;
 }
 
 .flex-container {
@@ -209,7 +209,7 @@ h4 {
 .titleP {
   margin-top: 60px;
   font-size: 30px;
-  color: #179cc8;
+  color: #61c8ea;
 }
 
 .nav {
@@ -257,7 +257,7 @@ nav a {
   transition: all 0.5s ease-in-out;
 }
 nav a:hover {
-  color: #179cc8;
+  color: #61c8ea;
 }
 
 a {

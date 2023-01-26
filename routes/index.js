@@ -3,13 +3,13 @@ var router = express.Router();
 
 let team = {
   laura: {
-    name: 'Laura',
+    name: 'Laura Albarracin',
     pRole: ' Project Manager',
     sRole: ' Back - End Developer',
     avatar: 'laura.jpg',
     github: 'https://github.com/lauralbarracin',
     linkedin: 'https://www.linkedin.com/in/lauraalbarracin/',
-    description: 'I am a communicator who decided to get involved into technology world. I like to challenge myself and I enjoy the power of coding. During my last years of experience I gained talent for helping people to communicate their ideas, that`s why I love managing projects'
+    description: 'I am a communicator who decided to get involved into technology world. I like to challenge myself and I enjoy the power of coding. I like helping others to communicate their ideas and build big projects'
   },
 
   nathalya: {
