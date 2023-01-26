@@ -43,7 +43,7 @@ img {
   position: relative;
   font-size: 40px;
   color: #9516b9;
-  font-weight: 900;
+  /* font-weight: 900; */
   margin: 5px;
   padding: 1.7em;
   text-transform: capitalize;
@@ -279,6 +279,7 @@ nav .nav {
   padding: 20px 0 0 0;
   margin: 1em;
 }
+
 nav li {
   float: left;
   /* makes list horizontal */
@@ -286,6 +287,7 @@ nav li {
   margin: 0 0 0 30px;
   /* separates 'buttons' */
 }
+
 nav a {
   font-size: 20px;
   margin: 0.5em;
@@ -302,6 +304,7 @@ nav a {
   -o-transition: all 0.75s ease-in-out;
   transition: all 0.75s ease-in-out;
 }
+
 nav a:hover,
 nav a:focus {
   color: rgb(184, 181, 181);
