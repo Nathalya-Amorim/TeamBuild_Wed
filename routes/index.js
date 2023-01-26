@@ -23,13 +23,13 @@ let team = {
   },
 
   tallyta: {
-    name: 'Tallyta',
-    pRole: '#',
-    sRole: '#',
-    avatar: '#',
-    github: '#',
-    linkedin: '#',
-    description: '#'
+    name: 'Tallyta Triolo',
+    pRole: 'Graphic & Web Designer',
+    sRole: 'Back - End Developer',
+    avatar: 'tallyta.jpg',
+    github: 'https://github.com/tallytriolo',
+    linkedin: 'https://www.linkedin.com/in/tallytatriolo',
+    description: 'I’m a creative and enthusiastic graphic and web designer who can plan, create, develop and execute unique campaigns. On the We Are All Hockey team, my role is to develop an inclusive campaign that promotes respect and equality in hockey, creating printed and digital communication pieces.'
   },
 
   maria: {
