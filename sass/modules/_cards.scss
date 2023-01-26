@@ -11,13 +11,11 @@ ul {
 
 
 img {
-    max-width: 100%;
-    height: auto;
-    width: 90px;
+    width: 960px;
 }
 
 .pic {
-    width: 90px;
+    width: 200px;
     height: auto;
 }
 
@@ -34,35 +32,11 @@ img {
     width: 600px;
 }
 
-.team-section {
-    position: relative;
-    padding: 80px 0px 60px;
-}
+// .team-section {
+//     position: relative;
+//     padding: 80px 0px 60px;
+// }
 
-.team-section.style-two .pattern-layer {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.team-section .title-box {
-    position: relative;
-    text-align: center;
-}
-
-.team-section .title-box h2 {
-    position: relative;
-    color: #3f3f3f;
-    font-size: 32px;
-    font-weight: 700;
-    margin: 0.3em;
-    line-height: 1.0em;
-    margin-bottom: 50px;
-}
 
 .team-section .title-box h2 span {
     color: #a21ac7;
@@ -132,7 +106,7 @@ img {
 
 .team-block .inner-box .social-icons li a {
     position: relative;
-    color: rgb(98, 190, 193);
+    color: #179cc8;
     font-size: 22px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -169,7 +143,7 @@ img {
 .team-block .inner-box .lower-content h3 {
     position: relative;
     top: 22px;
-    color: rgb(98, 190, 193);
+    color: #179cc8;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.0em;
@@ -193,5 +167,9 @@ img {
 
 h4 {
     color: rgb(91, 88, 88);
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.description {
+    color: #179cc8;
 }

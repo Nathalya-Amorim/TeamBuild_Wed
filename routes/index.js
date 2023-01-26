@@ -19,7 +19,7 @@ let team = {
     avatar: 'nathalya.jpg',
     github: 'https://github.com/Nathalya-Amorim',
     linkedin: 'https://www.linkedin.com/in/nathalya-menezes-0b1a37130/',
-    description: ' Description: I’m Nathalya Menezes, a Front-End Developer and Back-End at We All Hockey from Brazil but currently based in London; passionate about creating and discovering new things in 3D JavaScript, HTML and CSS.'
+    description: 'I’m Nathalya Menezes, a Front-End Developer and Back-End at We All Hockey from Brazil but currently based in London; passionate about creating and discovering new things in 3D JavaScript, HTML and CSS.'
   },
 
   tallyta: {
@@ -32,7 +32,7 @@ let team = {
     description: 'I’m a creative and enthusiastic graphic and web designer who can plan, create, develop and execute unique campaigns. On the We Are All Hockey team, my role is to develop an inclusive campaign that promotes respect and equality in hockey, creating printed and digital communication pieces.'
   },
 
-  maria: {
+  mariia: {
     name: 'Mariia',
     pRole: 'Motion Graphics Specialist',
     sRole: 'Graphic Designer',
@@ -47,7 +47,8 @@ let team = {
 router.get('/', function (req, res, next) {
   res.render('index', {
     title: 'Express',
-    content: 'express is easy!'
+    content: 'express is easy!',
+    home: true
   });
 });
 
